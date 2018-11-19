@@ -28,6 +28,20 @@ When prompted, provide your password.
 
 In the Vagrantfile you'll see that the slicejump host is being created in network1. You may want to change this if you want your slicejump host in some special network you may have created.
 
+Vagrant plugins:
+
+Install vagrant plugin for openstack 
+
+```
+plugin install vagrant-openstack-provider
+```
+
+Install Vagrant plugin for local host file updates if you prefer working with host names rather than IP address (optional)
+
+```
+plugin install vagrant-hostsupdater
+```
+
 Creation:
 
 ```
