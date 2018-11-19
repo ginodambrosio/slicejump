@@ -33,13 +33,13 @@ Vagrant plugins:
 Install vagrant plugin for openstack 
 
 ```
-plugin install vagrant-openstack-provider
+vagrant plugin install vagrant-openstack-provider
 ```
 
 Install Vagrant plugin for local host file updates if you prefer working with host names rather than IP address (optional)
 
 ```
-plugin install vagrant-hostsupdater
+vagrant plugin install vagrant-hostsupdater
 ```
 
 Creation:
