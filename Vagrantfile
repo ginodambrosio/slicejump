@@ -31,7 +31,8 @@ Vagrant.configure("2") do |config|
     os.networks             = ['network1']
     os.security_groups      = ['default']
     os.server_name          = 'slicejump'
-    os.availability_zone    = 'nova'
+# Comment out availability_zone 'nova' if currently unavailable. Will default to 'local-storage'
+#    os.availability_zone    = 'nova'
     os.volume_boot          = {
       size:              15,
       delete_on_destroy: true,
